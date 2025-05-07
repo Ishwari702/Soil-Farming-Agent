@@ -1,0 +1,23 @@
+[debug] [2025-05-03T16:01:36.366Z] ----------------------------------------------------------------------
+[debug] [2025-05-03T16:01:36.369Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\durge\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js hosting:disable
+[debug] [2025-05-03T16:01:36.370Z] CLI Version:   14.2.2
+[debug] [2025-05-03T16:01:36.370Z] Platform:      win32
+[debug] [2025-05-03T16:01:36.370Z] Node Version:  v22.11.0
+[debug] [2025-05-03T16:01:36.370Z] Time:          Sat May 03 2025 21:31:36 GMT+0530 (India Standard Time)
+[debug] [2025-05-03T16:01:36.370Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-03T16:01:36.642Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-03T16:01:36.643Z] > authorizing via signed-in user (thedurgeshsawarkar@gmail.com)
+[debug] [2025-05-03T16:01:36.643Z] [iam] checking project ev-recharge-bunk-8235c for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-05-03T16:01:36.645Z] Checked if tokens are valid: true, expires at: 1746289921520
+[debug] [2025-05-03T16:01:36.645Z] Checked if tokens are valid: true, expires at: 1746289921520
+[debug] [2025-05-03T16:01:36.647Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/ev-recharge-bunk-8235c:testIamPermissions [none]
+[debug] [2025-05-03T16:01:36.647Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/ev-recharge-bunk-8235c:testIamPermissions x-goog-quota-user=projects/ev-recharge-bunk-8235c
+[debug] [2025-05-03T16:01:36.647Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ev-recharge-bunk-8235c:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-05-03T16:01:38.350Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/ev-recharge-bunk-8235c:testIamPermissions 200
+[debug] [2025-05-03T16:01:38.350Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ev-recharge-bunk-8235c:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-05-03T16:01:38.351Z] Checked if tokens are valid: true, expires at: 1746289921520
+[debug] [2025-05-03T16:01:38.351Z] Checked if tokens are valid: true, expires at: 1746289921520
+[debug] [2025-05-03T16:01:38.351Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ev-recharge-bunk-8235c [none]
+[debug] [2025-05-03T16:01:38.948Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ev-recharge-bunk-8235c 200
+[debug] [2025-05-03T16:01:38.948Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ev-recharge-bunk-8235c {"projectId":"ev-recharge-bunk-8235c","projectNumber":"79471428386","displayName":"ev-recharge-bunk","name":"projects/ev-recharge-bunk-8235c","resources":{"hostingSite":"ev-recharge-bunk-8235c","realtimeDatabaseInstance":"ev-recharge-bunk-8235c-default-rtdb"},"state":"ACTIVE","etag":"1_bdbd53db-5f21-41f1-8ee6-dded0adec529"}
